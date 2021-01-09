@@ -1,0 +1,40 @@
+header{
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    z-index: 20;
+    background: #fff;
+    display: flex;
+    height:50px;
+    border-bottom: 1px solid #efefef;
+    padding-left: 20%;
+    
+    .title{ 
+        position: absolute;
+        top:50%;
+        left:20%;
+        transform: translate(-50%, -50%);
+
+        font-size: 20px;
+        width: auto;
+        display:block;
+        margin-right:4rem;
+
+    }
+
+    .menu{     
+        position: absolute;
+        top:50%;
+        left:30%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+        display:flex;
+        div{
+            
+            margin-right:2rem;
+        }
+    }
+
+
+}
