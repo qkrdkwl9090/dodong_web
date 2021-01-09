@@ -6,7 +6,7 @@ header{
     z-index: 20;
     background: #fff;
     display: flex;
-    height:50px;
+    height:70px;
     border-bottom: 1px solid #efefef;
     padding-left: 10%;
     
@@ -30,6 +30,12 @@ header{
         display:flex;
         div{            
             margin-right:2rem;
+        }
+    }
+    a{
+        text-decoration: none;
+        &:visited{
+            color:#000;
         }
     }
 

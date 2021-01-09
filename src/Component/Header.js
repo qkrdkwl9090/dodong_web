@@ -4,10 +4,12 @@ import '../Scss/Header.scss';
 function Header(){
     return (
         <header>
-            <a><div className = "title">DoDong</div></a>
+            <a href="/"><div className = "title">DoDong</div></a>
             <div className = "menu">                
-                <a><div>Intro</div></a>
-                <a><div>Skill</div></a>     
+                <a href="/Intro"><div>Intro</div></a>
+                <a href="/Skill"><div>Skill</div></a>                     
+                <a href="https://github.com/qkrdkwl9090"><div>Git</div></a>                  
+                <a href="https://blog.naver.com/qkrdkwl9090"><div>Blog</div></a>    
             </div>
         </header>
 
