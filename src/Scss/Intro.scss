@@ -1,9 +1,9 @@
 .introContent{
     height:1000px;
-    padding-top:150px;
+    padding-top:70px;
     section{
-        height:400px;
-        padding:50px 0;
+        height:550px;
+        padding:100px 0;
         border-bottom: 1px solid grey;
     }
     .intro{                
@@ -15,12 +15,42 @@
         .myIntroContent{
             color:grey;
             font-size: 18px;
+            margin-bottom:5rem;
         }
         img{
             position: absolute;
-            right:0;
-            top:150px;
+            right:10px;
+            top:220px;
             width:600px;
+        }
+        .career{
+            width: 650px;
+            height: 120px;
+            margin: 20px 0;
+            border-radius: 15px;
+            text-align: left;
+            padding: 20px;
+            border: 2px solid grey;
+            p{
+                color:grey;
+                margin-top:1rem;
+            }
+            .company{
+                display: flex;
+                width: 180px;
+                h1{
+                    padding-top: 10px;
+                    font-size: 15px;
+                }
+                p{
+                    padding-top: 13px;
+                    font-size:12px;
+                    margin-left: 1rem;
+                    margin-top:0;
+
+                }
+                
+            }
         }
     }
 }
