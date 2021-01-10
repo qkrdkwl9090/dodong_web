@@ -8,30 +8,28 @@ header{
     display: flex;
     height:70px;
     border-bottom: 1px solid #efefef;
-    padding-left: 10%;
-    
-    .title{ 
-        position: absolute;
-        top:50%;
-        left:10%;
-        transform: translate(-50%, -50%);
-        font-size: 20px;
-        width: auto;
-        display:block;
-        margin-right:3rem;
-    }
-
-    .menu{     
-        position: absolute;
-        top:50%;
-        left:20%;
-        transform: translate(-50%, -50%);
-        font-size: 15px;
-        display:flex;
-        div{            
-            margin-right:2rem;
+    .headerContent{
+        display: flex;
+        margin-left: 10%;
+        .title{
+            
+            padding-top: 20px;
+            font-size: 20px;
+            width: auto;
+            display:block;
+            margin-right:3rem;
+        }    
+        .menu{     
+            padding-top: 25px;
+            font-size: 15px;
+            display:flex;
+            div{            
+                margin-right:2rem;
+            }
         }
+
     }
+   
     a{
         text-decoration: none;
         &:visited{
