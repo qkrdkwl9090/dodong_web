@@ -29,3 +29,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	vertical-align: baseline;
 }
+ul, ol, li {
+  list-style: none;
+  padding-left:0px;
+}
