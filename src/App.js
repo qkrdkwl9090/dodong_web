@@ -14,10 +14,7 @@ function App() {
         <Route path="/Intro" component = {Intro}/>
       </Router>      
       <Footer/>
-
     </>
-
-
   );
 }
 

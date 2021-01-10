@@ -33,7 +33,7 @@ function Intro(){
                     최근에는 프론트엔드에 관심을 가지고 전문적인 개발자를 목표로 노력하고 있습니다.<br></br><br></br>
                     반갑습니다. 신뢰를 가장 중요시하는 개발자 박동현입니다. <br></br>
                     </p>
-                <img src={mount} alt="mount"/>
+                <img className="mount" src={mount} alt="mount"/>
                 <div className="titleName"><b>DoDong</b> > 경력</div>
                 <div className="career">
                     <div className="company">

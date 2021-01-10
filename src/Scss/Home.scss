@@ -1,3 +1,38 @@
+$breakpoint-mobile: 500px;
+$breakpoint-tablet: 758px;
+@media only screen and (max-width : $breakpoint-mobile){
+    .content section.logo {
+        height:300px;
+        .text{
+            color:white;
+            padding:90px 0px 90px 20px;
+            width: 100%;
+        }
+        img.homeLogo{
+            display:none;
+        }
+    }
+    .content .simpleSkill div.skillInfo{
+        display: block;
+        text-align: center;
+        .skill{
+            width:100%;
+        }
+    }
+}
+@media only screen and (max-width : $breakpoint-tablet){
+    .content section.logo{
+        height:300px;
+        .text{
+            color:white;
+            padding:100px 0px 100px 20px;
+            width: 100%;
+        }
+        img.homeLogo{
+            display:none;
+        }
+    }
+}
 .content{
     margin-top:70px;
     height:auto;
@@ -26,7 +61,7 @@
         }
     }
     .simpleSkill{
-        height:400px;
+        height:auto;
         padding:50px 0;
         display: block;
         position: relative;

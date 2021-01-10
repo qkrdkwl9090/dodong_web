@@ -1,3 +1,103 @@
+$breakpoint-mobile: 500px;
+$breakpoint-tablet: 1400px;
+@media only screen and (max-width : $breakpoint-mobile){
+    .introContent section.intro {
+        padding:70px 0;
+        padding-left:10%;
+        font-size: 14px;
+        .myIntroContent{
+            padding:20px 20px 20px 20px;
+            font-size: 14px;
+
+        }
+        img.mount{
+            display:none;
+        }
+        div.career{
+            width:300px;
+            margin: 0 auto;
+            padding:10px 20px;
+            height:60px;
+            p{
+               display:none;
+            }
+            .company p{
+                display: inline;
+            }
+        }
+    }
+    .introContent section.skillIntro{
+        padding:70px 0;
+        padding-left:10%;
+        p.myIntroContent{
+            padding:20px 20px 20px 20px;
+            font-size: 14px;
+        }
+        .skillKind .skillInfo{
+                text-align: center;
+                display: block;
+            .imgText{
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                img{
+                    margin:1rem;
+                }
+                p{
+                    b{
+                        font-size: 16px;
+                    }
+                    margin:0;
+                    font-size:14px;
+                }
+            }
+        } 
+    }
+}
+@media only screen and (max-width : $breakpoint-tablet){
+    .introContent section.intro {
+        padding:70px 0;
+        padding-left:10%;
+        font-size: 14px;
+        .myIntroContent{
+            padding:20px 20px 20px 20px;
+            font-size: 14px;
+
+        }
+        img.mount{
+            display:none;
+        }
+    }
+    .introContent section.skillIntro{
+        padding:70px 0;
+        padding-left:10%;
+        p.myIntroContent{
+            padding:20px 20px 20px 20px;
+            font-size: 14px;
+        }
+        .skillKind .skillInfo{
+                text-align: center;
+                display: block;
+            .imgText{
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                img{
+                    margin:1rem;
+                }
+                p{
+                    b{
+                        font-size: 16px;
+                    }
+                    margin:0;
+                    font-size:14px;
+                }
+            }
+        } 
+    }
+}
+
+
 .introContent{
     height:auto;
     padding-top:70px;
@@ -16,7 +116,7 @@
         }
     }
     .intro{                
-        height:550px;
+        height:auto;
         img{
             position: absolute;
             right:10%;
@@ -57,7 +157,7 @@
         }
     }
     .skillIntro{
-        height:1300px;
+        height:auto;
         .skillKind{
             .skillInfo{
                 display: flex;

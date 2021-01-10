@@ -13,7 +13,7 @@ function Home(){
                 <div className="text">
                     <h3>안녕하세요</h3>프론트엔드 개발자 박동현입니다.<br></br>항상 새로운 기술에 적극적으로 도전합니다.
                 </div>                
-                <img src={Logo}/>
+                <img className="homeLogo" src={Logo}/>
             </section>
             <section className="simpleSkill">
                 <h1>Skill</h1>
