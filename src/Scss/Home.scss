@@ -61,9 +61,8 @@ $breakpoint-tablet: 758px;
         }
     }
     .simpleSkill{
-        height:auto;
-        min-height: 50%;
-        padding:50px 0;
+        height:550px;
+        padding:150px 0;
         display: block;
         position: relative;
         background:#fff;
@@ -71,7 +70,7 @@ $breakpoint-tablet: 758px;
         width: 100%;
         h1{
             font-size: 24px;
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
         }
         .skillInfo{
             display: flex;
@@ -80,7 +79,7 @@ $breakpoint-tablet: 758px;
             margin:0 auto;
             
             .skill{
-                margin-top:5rem;
+                margin-top:7rem;
                 width:33%;
                 .skillKind{
                     margin-top:1rem;
