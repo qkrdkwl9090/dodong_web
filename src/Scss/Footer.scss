@@ -1,5 +1,5 @@
-$breakpoint-tablet: 700px;
-@media only screen and (max-width : $breakpoint-tablet){
+@import "../index.scss";
+@include tablet{
     
     footer div.info{
         display:inline-block;

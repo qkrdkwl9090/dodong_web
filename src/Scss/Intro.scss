@@ -1,6 +1,5 @@
-$breakpoint-mobile: 500px;
-$breakpoint-tablet: 1400px;
-@media only screen and (max-width : $breakpoint-mobile){
+@import "../index.scss";
+@include mobile{
     .introContent section.intro {
         padding:70px 5%;
         font-size: 14px;
@@ -58,7 +57,7 @@ $breakpoint-tablet: 1400px;
         } 
     }
 }
-@media only screen and (max-width : $breakpoint-tablet){
+@include tablet{
     .introContent section.intro {
         padding:70px 5%;
         font-size: 14px;
