@@ -12,13 +12,17 @@ $breakpoint-tablet: 758px;
             display:none;
         }
     }
-    .content .simpleSkill div.skillInfo{
-        display: block;
-        text-align: center;
-        .skill{
-            width:100%;
+    .content section.simpleSkill{
+        height: auto;
+        font-size: 13px;
+        .skillInfo{
+            display: block;
+            text-align: center;
+            .skill{
+                width:100%;
+            }
         }
-    }
+    } 
 }
 @media only screen and (max-width : $breakpoint-tablet){
     .content section.logo{
@@ -36,6 +40,7 @@ $breakpoint-tablet: 758px;
 .content{
     margin-top:70px;
     height:auto;
+    position: relative;
     display: grid;
     .logo{
         background-color:#b4c6f0;
