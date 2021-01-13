@@ -1,3 +1,6 @@
+*{
+  transition: 0.5s;
+}
 body {
   margin: 0;
   font-family: 'revert';
@@ -20,7 +23,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption,  header, hgroup, 
+figure, figcaption,   hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
