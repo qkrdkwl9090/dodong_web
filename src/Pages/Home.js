@@ -43,6 +43,17 @@ function Home(){
                 </div>
 
             </section>
+            <section className="potContent">
+                <h1>Portfolio</h1>
+                <div className="potInfo">
+                    <a href="http://dodong.blog:8080" target="_blank"><div className="potCard">
+                        <p>개발중</p>
+                    </div></a>
+                </div>
+                
+
+
+            </section>
         </div>
     )
 }
