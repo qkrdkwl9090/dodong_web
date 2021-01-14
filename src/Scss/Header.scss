@@ -27,11 +27,23 @@ header{
             margin-right:3rem;
         }    
         .menu{     
-            padding-top: 25px;
             font-size: 15px;
             display:flex;
+            a{
+                padding-top: 25px;
+                width: 70px;
+                text-align: center;
+
+                &:hover{
+                    transition: 0.2s;
+                    color: white;
+                    background-color: grey;
+                }
+            
+            }
             div{            
-                margin-right:2rem;
+                margin-right:1rem;
+                margin-left:1rem;
             }
         }
 

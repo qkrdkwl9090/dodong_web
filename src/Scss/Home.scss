@@ -32,7 +32,7 @@
                 margin: 0 auto;
                 width:90%;
                 height:200px;
-                &::selection{
+                &:focus{
                     background-color: grey;
                 }
             }
