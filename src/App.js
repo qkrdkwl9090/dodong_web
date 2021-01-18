@@ -8,8 +8,9 @@ import Intro from './Pages/Intro.js';
 function App() {
   return (
     <>
-      <Header/>
       <Router>
+        
+        <Header/>
         <Route exact path="/" component = {Home}/>
         <Route path="/Intro" component = {Intro}/>
       </Router>      

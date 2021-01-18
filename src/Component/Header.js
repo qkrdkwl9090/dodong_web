@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import '../Scss/Header.scss';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Switch from '@material-ui/core/Switch';
+import {Route,Link} from 'react-router-dom';
 
 function Header(){
 //     const [state, setState] = useState({
@@ -15,11 +16,11 @@ function Header(){
     return (
         <header>
             <div className="headerContent">
-                <a href="/"><div className = "title">DoDong</div></a>
+                <Link to="/"><div className = "title">DoDong</div></Link>
                 <div className = "menu">                
-                    <a href="/Intro"><div>Intro</div></a>                    
-                    <a href="https://github.com/qkrdkwl9090"><div>Git</div></a>                  
-                    <a href="https://blog.naver.com/qkrdkwl9090"><div>Blog</div></a>    
+                    <Link to ="/Intro"><div>Intro</div></Link>                    
+                    <a href="https://github.com/qkrdkwl9090" target="_blank"><div>Git</div></a>                  
+                    <a href="https://blog.naver.com/qkrdkwl9090" target="_blank"><div>Blog</div></a>    
                 </div>
                 {/* <div className="darkMode">
                     <FormControlLabel
