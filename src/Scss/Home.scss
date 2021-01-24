@@ -67,13 +67,233 @@
         .text{
             width:50%;
             padding:200px 0 200px 15%;                          
-            font-size: 16px;
+            font-size: 24px;
             color:white;
-            text-align: left;            
-            h3{
-                font-size: 28px;
-                margin-bottom: 1rem;
+            text-align: left; 
+            
+        }
+        .text:after{
+            content:'';
+            color:white;
+            animation: write 10s linear;
+            animation-fill-mode: forwards;
+        }
+        @keyframes write{
+            1%{
+                content:'안';
+            }            
+            2%{
+                content:'안녕';
             }
+            3%{
+                content:'안녕하';
+            }
+            4%{
+                content:'안녕하세';
+            }
+            5%{
+                content:'안녕하세요';
+            }
+            6%{
+                content:'안녕하세요.\A';   
+                white-space: pre;
+            }
+            7%{
+                content:'안녕하세요.\A풀';
+                white-space: pre;
+            }
+            8%{
+                content:'안녕하세요.\A풀스';
+                white-space: pre;
+            }
+            9%{
+                content:'안녕하세요.\A풀스택';
+                white-space: pre;
+            }
+            10%{
+                content:'안녕하세요.\A풀스택 개';
+                white-space: pre;
+            }            
+            11%{
+                content:'안녕하세요.\A풀스택 개발';
+                white-space: pre;
+            }           
+            12%{
+                content:'안녕하세요.\A풀스택 개발자';
+                white-space: pre;
+            }       
+            28%{
+                content:'안녕하세요.\A풀스택 개발';
+                white-space: pre;
+            }                   
+            29%{
+                content:'안녕하세요.\A풀스택 개';
+                white-space: pre;
+            }                   
+            30%{
+                content:'안녕하세요.\A풀스택 ';
+                white-space: pre;
+            }
+            31%{
+                content:'안녕하세요.\A풀스';
+                white-space: pre;
+            }                   
+            32%{
+                content:'안녕하세요.\A풀';
+                white-space: pre;
+            }                   
+            38%{
+                content:'안녕하세요.\A';
+                white-space: pre;
+            }
+            39%{
+                content:'안녕하세요.\A프';
+                white-space: pre;
+            }                   
+            40%{
+                content:'안녕하세요.\A프론';
+                white-space: pre;
+            }                   
+            41%{
+                content:'안녕하세요.\A프론트';
+                white-space: pre;
+            }                   
+            42%{
+                content:'안녕하세요.\A프론트 개';
+                white-space: pre;
+            }                   
+            43%{
+                content:'안녕하세요.\A프론트 개발';
+                white-space: pre;
+            }                   
+            44%{
+                content:'안녕하세요.\A프론트 개발자';
+                white-space: pre;
+            }
+
+            45%{
+                content:'안녕하세요.\A프론트 개발자 박';
+                white-space: pre;
+            }
+            47%{
+                content:'안녕하세요.\A프론트 개발자 박동';
+                white-space: pre;
+            }
+            48%{
+                content:'안녕하세요.\A프론트 개발자 박동현';
+                white-space: pre;
+            }
+            49%{
+                content:'안녕하세요.\A프론트 개발자 박동현입';
+                white-space: pre;
+            }
+            50%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니';
+                white-space: pre;
+            }
+            51%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다';
+                white-space: pre;
+            }            
+            71%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A';
+                white-space: pre;
+            }
+
+            72%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항';
+                white-space: pre;
+            }
+            73%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상';
+                white-space: pre;
+            }
+            74%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 ';
+                white-space: pre;
+            }
+            75%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새';
+                white-space: pre;
+            }
+            76%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로';
+                white-space: pre;
+            }
+            77%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운';
+                white-space: pre;
+            }
+            78%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 ';
+                white-space: pre;
+            }
+            79%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기';
+                white-space: pre;
+            }
+            80%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기술';
+                white-space: pre;
+            }
+            82%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기술에';
+                white-space: pre;
+            }
+            83%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기술에 ';
+                white-space: pre;
+            }
+            85%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기술에 적';
+                white-space: pre;
+            }
+            86%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기술에 적극';
+                white-space: pre;
+            }
+            87%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기술에 적극적';
+                white-space: pre;
+            }
+            88%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기술에 적극적으';
+                white-space: pre;
+            }
+            89%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기술에 적극적으로';
+                white-space: pre;
+            }
+            90%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기술에 적극적으로 ';
+                white-space: pre;
+            }
+            91%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기술에 적극적으로 도';
+                white-space: pre;
+            }
+            92%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기술에 적극적으로 도전';
+                white-space: pre;
+            }
+            95%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기술에 적극적으로 도전합';
+                white-space: pre;
+            }
+            97%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기술에 적극적으로 도전합니';
+                white-space: pre;
+            }
+            98%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기술에 적극적으로 도전합니다';
+                white-space: pre;
+            }            
+            100%{
+                content:'안녕하세요.\A프론트 개발자 박동현입니다.\A항상 새로운 기술에 적극적으로 도전합니다.';
+                white-space: pre;
+            }
+
+
             
         }
         img{
