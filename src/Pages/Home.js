@@ -5,6 +5,8 @@ import Front from '../images/front.svg';
 import Back from '../images/back.svg';
 import Kit from '../images/kit.svg';
 import Phone from '../images/phone.svg';
+import pot2 from '../images/pot2.JPG';
+import pot1 from '../images/pot1.JPG';
 
 function Home(){
     return (
@@ -46,13 +48,22 @@ function Home(){
             <section className="potContent">
                 <h1>Portfolio</h1>
                 <div className="potInfo">
-                    <a href="http://dodong.blog:8080" target="_blank"><div className="potCard">
-                        <p>개발중</p>
-                    </div></a>
-                </div>
-                
+                    <div className="potCard">
+                        <a href="http://dodong.blog:8081" target="_blank">
+                            <div className="center">
+                            <img src={pot2} alt="pot2"></img></div>
+                        </a>
+                    </div>                     
+                    <div className="potCard">
+                        <a href="http://dodong.blog:8080" target="_blank">
+                            <div className="center">
+                            <img src={pot1} alt="pot1"></img></div>
+                        </a>
+                        
+                        <div className="tag">개발중</div>
+                    </div>       
 
-
+                </div>           
             </section>
         </div>
     )
